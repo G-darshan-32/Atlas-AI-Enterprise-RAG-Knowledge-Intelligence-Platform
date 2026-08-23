@@ -18,6 +18,10 @@ The project combines a Next.js frontend with a FastAPI backend, PostgreSQL persi
 
 ## Screenshots
 
+### Welcome page
+
+![Atlas AI welcome page](docs/screenshots/welcome.png)
+
 ### Registration
 
 ![Atlas AI registration screen](docs/screenshots/register.png)
