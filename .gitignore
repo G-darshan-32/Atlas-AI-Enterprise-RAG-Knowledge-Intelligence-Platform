@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv
+venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# Node
+node_modules/
+.next/
+*.tsbuildinfo
+out/
+.vercel
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Docker volumes
+postgres_data/
+redis_data/
+qdrant_data/
+minio_data/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Secrets
+*.pem
+*.key
+*.cert
+.env.local
+.env.production
+
+# Ignore all environment variants except safe templates
+.env.*
+!.env.example
+!**/.env.example
+!**/.env.production.example
+
+# Backend local env files (contain secrets — never commit)
+backend/.env
+backend/.env.local
+
+# SQLite dev database
+backend/*.db
+
+# Alembic
+alembic/versions/*.pyc

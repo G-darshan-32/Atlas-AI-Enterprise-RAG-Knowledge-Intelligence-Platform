@@ -1,0 +1,19 @@
+{
+  "title": "Atlas AI — Overview",
+  "uid": "atlas-overview",
+  "schemaVersion": 38,
+  "panels": [
+    {
+      "type": "stat",
+      "title": "API Up",
+      "gridPos": { "x": 0, "y": 0, "w": 4, "h": 4 },
+      "targets": [{ "expr": "atlas_api_up", "legendFormat": "Status" }]
+    },
+    {
+      "type": "timeseries",
+      "title": "HTTP Request Rate",
+      "gridPos": { "x": 4, "y": 0, "w": 20, "h": 8 },
+      "targets": [{ "expr": "rate(http_requests_total[5m])", "legendFormat": "{{method}} {{path}}" }]
+    }
+  ]
+}
