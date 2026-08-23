@@ -54,6 +54,8 @@ The project combines a Next.js frontend with a FastAPI backend, PostgreSQL persi
 
 ## Project Structure
 
+For the complete product and technical explanation, see the [Atlas AI Project Guide](docs/PROJECT_GUIDE.md).
+
 ```text
 atlas-ai/
 ├── backend/                  FastAPI application and database migrations
